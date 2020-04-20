@@ -1,0 +1,21 @@
+
+
+#afterLogin{
+    color:white
+}
+
+#login-buttons{
+    
+  font-size:13px;
+
+
+    color:white;
+    position: absolute;
+    text-align: right!important
+
+}
+
+#login-buttons a{
+
+        color:white;
+  }

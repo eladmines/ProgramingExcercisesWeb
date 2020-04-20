@@ -1,0 +1,28 @@
+.navbar-nav{
+    font-size:15px;
+   
+  }
+  .navbar{
+    background-color: rgb(34,42,53);
+  }
+#left-menu{
+
+ 
+  width:90%;
+  direction: ltr;
+  position: relative;
+  display: inline-block;
+
+ 
+}
+#right-menu{
+
+ 
+  width:10%;
+  direction: ltr;
+  position: relative;
+  display: inline-block;
+
+  float:right;
+ 
+}

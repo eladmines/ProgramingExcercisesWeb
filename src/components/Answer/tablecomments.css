@@ -1,0 +1,138 @@
+#image{
+    position: relative;
+    width:5%;
+
+    display: inline-block;
+    height:100%;
+}
+
+#content-comment-container{
+    position: relative;
+
+    width:95%;
+   
+    height:100%;
+    display: inline-block;
+    float:Right;
+}
+
+#comment{
+    position: relative;
+    display:inline-block;
+    height:auto;
+  
+}
+
+#user-container{
+    position: relative;
+
+    width:100%;
+    height:30%;
+    display: inline-block;
+    background-color: rgb(255, 255, 204);
+}
+
+
+
+
+#user-comment{
+    position: relative;
+   
+    width:60%;
+    height:100%;
+    display: inline-block;
+   
+}
+
+form{
+   
+    position: relative;
+    float:left;
+
+   
+
+  }
+
+  #user{
+      float:left;
+      position: relative;
+      right:5%;
+     width:100%;
+  }
+#date-comment{
+    position: relative;
+    width:40%;
+    height:100%;
+    float:right;
+    display: inline-block;
+   
+}
+
+#date-comment span{
+    color:grey;
+    font-size:10px;
+    text-align: right;
+    float:right;
+   
+}
+#textarea {
+    width: 100%;
+    height: 150px;
+  }
+#button-send-comment{
+    position: relative;
+    width:100%;
+  
+}
+  #button-send{
+
+    background-color: white;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: 2px solid #e7e7e7;
+        color: black;
+        width:100%;
+      
+      }
+
+      #button-send:hover {background-color: #e7e7e7;}
+      
+      @media screen and (max-width:1000px) {
+        #user{
+          width:90%;
+          position: relative;
+          float:left;
+        }
+
+        #image{
+            position: relative;
+            width:10%;
+        
+            display: inline-block;
+            height:100%;
+            padding-right:5%;
+        }
+        
+        #content-comment-container{
+            position: relative;
+        
+            width:88%;
+           
+            height:100%;
+            display: inline-block;
+            float:Right;
+        }
+
+      
+    
+        
+    }
+    

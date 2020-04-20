@@ -1,0 +1,22 @@
+
+  #level{
+    position: relative;
+    direction:rtl;
+    float:right;
+  text-align: right;
+ 
+
+}
+.tehila-bg{
+background-color: rgb(229,233,239);
+}
+#level span{
+  position: relative;
+  direction:rtl;
+  float:right;
+  font-size:10px;
+  margin-right:5px;
+
+}
+
+

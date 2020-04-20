@@ -1,0 +1,49 @@
+#right-answer{
+    position: relative;
+    width:20%;
+    height:100%;
+ 
+    padding-left:10px;
+    float:right;
+    display:inline-block;
+
+}
+
+#left-answer{
+    position: relative;
+    width:80%;
+    height:100%;
+
+    display:inline-block;
+
+    
+}
+
+#answer{
+    position: relative;
+    width:100%;
+ 
+
+}
+
+
+@media screen and (max-width:1000px) {
+    #right-answer{
+      width:100%;
+    }
+
+    #left-answer{
+        width:100%;
+      }
+      #answer{
+        position: relative;
+        width:98%;
+        height:100%;
+        float:center;
+        left:1%;
+   
+    }
+}
+
+
+  

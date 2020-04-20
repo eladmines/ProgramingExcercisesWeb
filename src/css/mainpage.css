@@ -1,0 +1,222 @@
+
+#right-container{  display: inline-block; width:50%;position: relative; height: 97%;float:right }
+
+
+#left-container{
+  width:50%;
+  background-color:rgb(34,42,53);
+  height:97%;display: inline-block;
+
+}
+#container-all-my{
+    position: relative;
+   
+    width:100;
+    height:92vh;
+   
+}
+
+#line-up{
+  position: relative;
+  background-color: white;
+  height:1px;
+  width:100%;
+}
+
+
+
+#bottom-line{
+  position: relative;
+  background-color: rgb(34,42,53);
+  width:100%;
+  height:3%;
+
+  border-top: 1px solid white;
+  
+}
+
+.wrap{
+  position: relative;
+  display:inline-block;
+  width:25%;
+  height:33.5%;
+  
+ 
+}
+.flip-box {
+  background-color: transparent;
+  position: relative;
+  height: 100%;
+  border: 1px solid #f1f1f1;
+
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: rgb(247, 247, 247);
+  color: black;
+}
+
+.flip-box-back {
+  background-color: rgb(84,92,116);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back h2{
+ margin-top:40%;
+}
+
+  .flip-box-front img{
+    position: relative;
+    margin-top: 20%;
+  }
+  .space{
+    position: relative;
+    margin-top:-1%;
+  }
+
+
+  #image-container{
+    position: relative;
+    width:100%;
+    height:20%;
+    
+
+
+    
+  }
+  #desc-container{
+    position: relative;
+    width:100%;
+    height:80%;padding-top:18%;
+    font-family: Tahoma;
+    color:white;
+    text-align: center;
+    white-space: pre;
+    font-size:120%;
+    
+
+    
+  }
+
+  #desc-container ul li{
+    position: relative;
+    float:center;
+ 
+    left:20%;
+    bottom:50%;
+    font-size:30px;
+
+
+    
+  }
+  
+  #image-container img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+
+  }
+
+  #contact-desc{
+    position: relative;
+    width:50%;
+    height:100%;
+    bottom:40%;
+    left:25%;
+  }
+  #contact-desc input{
+   margin-bottom:10%;
+
+
+  width:100%;
+  border: none;
+  border-radius: 4px;
+  font-size:12pt;
+ 
+
+  }
+  #contact-desc textarea{
+    width:100%;
+    height:30%;
+  }
+@media screen and (max-width:1000px) {
+  #contact-desc{
+
+    width:90%!important;
+    position: relative;
+    float:left;
+    left:5%;
+  }
+  #left-container{
+    width:100%;
+  }
+
+  #right-container{
+    width:100%;
+    position: relative;
+    display: block;
+  
+  }
+
+  .wrap{
+    position: relative;
+    display: block;
+    width:100%;
+  }
+
+  .flip-box-front img{
+    position: relative;
+    margin-top: 4%;
+  }
+
+  .space{
+    position: relative;
+    margin-top:0%!important;
+  }
+
+  .flip-box-back h2{
+    margin-top:10%;
+   }
+
+}
+#image-container img{
+  position: relative;
+  height:100%;
+  
+}
+
+
+#desc-container ul li{
+  position: relative;
+  float:center;
+
+  left:0%;
+  bottom:50%;
+  font-size:30px;
+
+
+  
+}

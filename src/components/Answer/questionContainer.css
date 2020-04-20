@@ -1,0 +1,25 @@
+#title-question span{
+    position: relative;
+    text-decoration: underline;
+}
+
+#full-users{
+    position: relative;
+    width:100%;
+  
+    display: inline-block;
+}
+
+#user{
+    width:20%;
+    position: relative;
+    display: inline-block;
+    margin:10px;
+
+}
+
+
+#right-questions{
+  position: relative;
+  float:Right;
+}

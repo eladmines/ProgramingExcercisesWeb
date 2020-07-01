@@ -89,6 +89,7 @@ handleClick(e){
      
         <Navbar {...this.state} action={this.handleClick}/>
         <Data {...this.state} {...this.props}>{subject}</Data>
+       
       </React.Fragment>
     )
   }

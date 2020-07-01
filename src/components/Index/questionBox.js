@@ -44,7 +44,9 @@ class questionBox extends Component{
 
         render(){
            return(
+              
           <div id="container-question" className={this.findB()}>
+            
             <div className="card card-body bg-light" >
               
             <div className="container-content-box" >
@@ -52,6 +54,7 @@ class questionBox extends Component{
                <img src={this.props.image} alt="none"/>
                </div>
               <div id="title">
+                 
                  <span>{this.props.question}</span>
                  <div id={this.props.level}  >
                     {this.props.level}

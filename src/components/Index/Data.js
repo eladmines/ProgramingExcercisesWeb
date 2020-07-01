@@ -16,6 +16,7 @@ class Data extends Component{
   }
 
   componentWillMount(){
+    
     db.collection( this.props.children)
       .get()
       .then(snapshot => {
@@ -25,6 +26,7 @@ class Data extends Component{
            questions.push(data)
          })
          this.setState({ questions:questions})
+         console.log(questions)
       })
       .catch( error => console.log(error))
   }
@@ -43,8 +45,11 @@ class Data extends Component{
            this.state.questions &&
            this.state.questions.map((question,index) => {
              return (
-            
+               <React.Fragment>
+                 
               <Link key={index} to={{pathname: `./`+this.props.children+`/`+question.questionTitle}}><Box question={question.questionTitle} questionFull={question.questionFull} image={question.image} level={question.level} {...this.props}/></Link>
+               </React.Fragment>
+          
              
              )
            })

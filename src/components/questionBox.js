@@ -46,7 +46,7 @@ class questionBox extends Component{
            return(
           <div id="container-question" className={this.findB()}>
             <div className="card card-body bg-light" >
-              
+              <h1>dddddddddddddddddddddddddddddddddddddddddddd</h1>
             <div className="container-content-box" >
                <div id="img-cont">
                <img src={this.props.image}/>
